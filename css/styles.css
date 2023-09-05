@@ -1,3 +1,5 @@
+@import "_index.css";
+
 h1,
 h2,
 h3 {
@@ -5,6 +7,7 @@ h3 {
     text-align: center;
 }
 
+/* ----Navigation----  */
 nav {
     background: #FDDCA9;
     position: absolute;
@@ -87,6 +90,7 @@ header {
 body {
     margin: 0 auto;
     font-family: geologica;
+    text-align: center;
     background-color: #FDEDD6;
     display: grid; 
     grid-gap: 1em;

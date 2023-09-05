@@ -1,0 +1,40 @@
+.index-orange-infocard {
+    background: #FAD59D; 
+    max-width: 80vw;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.orange-plan-visit-link {
+    background: #FA9702;
+    color: #fff; 
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem 0rem 1rem 0rem;
+    align-items: center;
+    width: 80vw; 
+    min-width: 300px;
+}
+
+.index-hours,
+.index-adress {
+    display: flex;
+    text-align: center;
+    gap: 0.5rem;
+    align-content: center;
+}
+
+
+@media (min-width: 700px) {
+    .index-orange-infocard,
+    .orange-plan-visit-link {
+        max-width: 50vw;
+    }
+
+}
