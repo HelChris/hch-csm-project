@@ -1,0 +1,149 @@
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    background: #FDDCA9;
+    position: absolute;
+    justify-content: left; 
+    top: 4rem; 
+    width: 100%; 
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+    color: #910885;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #910885;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding-bottom: 0.3rem;
+    padding-right: 0.5rem;
+}
+
+.active { 
+    text-decoration: underline;
+    text-shadow: 0 0 1px;
+    color: #910885;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: relative; 
+    background: #FDDCA9;
+    color: #910885; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger-icon,
+.logo-mobile {
+    margin: 0.5rem;
+    padding-right: 0.5rem; 
+}
+
+.logo-mobile {
+    padding-left: 1rem;
+}
+
+.hexagon-img {
+    max-width: 95vw;
+    display: flex;
+    justify-content: center;
+    border: orange solid 3px;
+    border-radius: 10px;
+}
+
+.hexagon-img-index {
+    max-width: 95vw;
+    max-height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.hexagon-figure {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+body {
+    margin: 0 auto;
+    font-family: geologica;
+    background-color: #FDEDD6;
+    display: grid; 
+    grid-gap: 1em;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #FDDCA9;
+    color: #480543;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+}
+
+footer a {
+    text-decoration: none;
+    color: #480543; 
+}
+
+.footer__headline {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    color: #480543; 
+}
+
+.footer__ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: #480543; 
+}
+
+@media (min-width: 44em) {
+    nav {
+        display: inline-flex;
+        position: static; 
+        justify-content: flex-end;
+    }
+
+    .hamburger-icon {
+        display: none; 
+    }
+
+    nav a {
+        padding-right: 1rem; 
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1em;
+        background: #FDDCA9;
+    }
+}
