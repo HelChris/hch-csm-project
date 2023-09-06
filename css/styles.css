@@ -7,6 +7,19 @@ h3 {
     text-align: center;
 }
 
+h2 {
+    line-height: 23px;
+    font-size: 19px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0em 1em 0em 1em;
+    text-align: left;
+}
+
+
 /* ----Navigation----  */
 nav {
     background: #FDDCA9;

@@ -13,10 +13,11 @@
 
 .orange-plan-visit-link {
     background: #FA9702;
-    color: #fff; 
+    color: #000; 
     font-size: 1rem;
     text-decoration: none;
     padding: 1rem 0rem 1rem 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     align-items: center;
     width: 80vw; 
     min-width: 300px;
@@ -30,7 +31,72 @@
     align-content: center;
 }
 
+/* ---------- Carousel ------ */
+.carousel-wrapper{
+    height:400px;
+    position:relative;
+    width:80vw;
+    max-width: 800px;
+    margin:0 auto;
+  }
+  .carousel-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+  }
 
+  .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+  
+  .arrow-prev{
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+  }
+   
+  .arrow-next{
+    right:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+    }
+  
+  .light{
+    color:white;
+  }
+  
+.exhibition-card-wrapper {
+    width: 280px; 
+    border: 2px solid #FA9702;
+    border-radius: 8px; 
+    background-color: #fff;
+    margin: 1em; 
+  }
+
+.exhibition-card-img {
+    border-radius: 8px 8px 0px 0px; 
+  } 
+
+.exhibition-cards {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+/* ----------Media queries----------- */
 @media (min-width: 700px) {
     .index-orange-infocard,
     .orange-plan-visit-link {
@@ -38,3 +104,58 @@
     }
 
 }
+
+@media (max-width: 700px) {
+    .arrow, .light .arrow {
+      background-size: 10px;
+      background-position: 10px 50%;
+    }
+
+    .carousel-item {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+    [id^="item"] {
+    display: none;
+    }
+
+    .item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('/images/mammoth.jpg');
+    background-size:cover;
+    }
+    .item-2{
+    background:url('/images/thisisengineering-raeng-Te-unsplash.jpg');
+    background-size:cover;
+    }
+    .item-3{
+    background:url('/images/VR-painting.jpg');
+    background-size:cover;
+    }
+
+    *:target ~ .item-1 {
+    opacity: 0;
+    }
+
+    #item-1:target ~ .item-1 {
+    opacity: 1;
+    }
+
+    #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+    }
+
+    .carousel-info {
+        display: flex;
+        flex-direction: column;
+        background-color:hsla(0, 0%, 100%, 0.55);
+        font-size: 16px;
+    }
+}
+
+
+

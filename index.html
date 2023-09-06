@@ -37,13 +37,13 @@
             srcset="/images/hexagon-banner-big-finall-v.2.jpg">
             <img class="hexagon-img-index" src="images/hexagon-banner-small-v.2.jpg" alt="a collage of hexagonshaped pictures of kids exploring different activities in the musem">
         </picture>
-        <section class="content-wrapper">
+        <section>
             <h1>Welcome to the Museum</h1>
             <div class="index-orange-infocard"> 
                 <a href="events.html" class="orange-plan-visit-link">Plan your visit</a>
                 <div class="index-hours">
                     <img src="/images/icon-clock-small.svg" alt="orange clock icon">
-                    <p>TODAYS OPENING HOURS:<br>09.00-16.00</p>
+                    <p>TODAYS OPENING HOURS: <br>09.00-16.00</p>
                 </div>
                 <div class="index-adress">
                     <img src="/images/icon-map-small.svg" alt="orange map icon">
@@ -51,9 +51,54 @@
                 </div>
             </div>
         </section>
-        <section class="carousel">
+        <section>
             <h2>Explore with us</h2>
-            
+            <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <div class="carousel-item item-1">
+                  <div class="carousel-info">
+                      <h2>The Mammoth exhibition</h2>
+                      <p>See the amazing skeleton of a mammoth, an ancient animal that lived thousands of years ago. The mammoth was like a giant elephant with long, curved tusks and a long trunk. Learn about the history, evolution, and extinction of the mammoth. Don’t miss it!</p>
+                      <a class="arrow arrow-prev" href="#item-3"></a>
+                      <a class="arrow arrow-next" href="#item-2"></a>
+                  </div>
+                </div>
+                <div class="carousel-item item-2">
+                  <div class="carousel-info">
+                      <h2>Robotics Workshop</h2>
+                      <p>Learn how to build and program your own robot with this workshop! You will use a laptop, a speaker, and a small robot to make it move, talk, and interact. You will also explore the science and engineering behind robotics. This workshop is fun, hands-on, and creative. Join us and become a robotics expert!</p>
+                      <a class="arrow arrow-prev" href="#item-1"></a>
+                      <a class="arrow arrow-next" href="#item-3"></a>
+                  </div>
+                </div>
+                <div class="carousel-item item-3">
+                  <div class="carousel-info">
+                      <h2>Virtual Reality Painting</h2>
+                      <p>Have you ever wondered what it would be like to paint in a virtual world? Choose brushes, colors, and effects to make 3D artworks. Learn and have fun with art, technology, and science. Try it and be an artist!</p>
+                      <a class="arrow arrow-prev" href="#item-2"></a>
+                      <a class="arrow arrow-next" href="#item-1"></a>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section class="exhibition-cards">
+            <div class="exhibition-card-wrapper">
+                <img src="/images/exhibition-biology.jpg" class="exhibition-card-img" alt="heart model">
+                <h2>Biology and Medicine</h2>
+                <p>The biology and medicine exhibition showcases the wonders of the tiny world, from micro-organisms to the human body. It explores the history of medicine and major breakthroughs, including penicillin discovery and the first heart transplant. Observing animals in the wild has also led to many medicinal discoveries</p>
+            </div>
+            <div class="exhibition-card-wrapper">
+                <img src="/images/exhibition-robotics.jpg" class="exhibition-card-img" alt="a row of robots on wheels buildt with legos">
+                <h2>Robotics and AI</h2>
+                <p>The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
+            </div>
+            <div class="exhibition-card-wrapper">
+                <img src="/images/exhibition-ecology.jpg" class="exhibition-card-img"  alt="inside a forest looking up on a circle of tall threes with green leafs">
+                <h2>Ecology</h2>
+                <p>The museum’s ecology section highlights the impact of humans on the planet, including global warming, species extinction, and pollution. It also explores ways to create a sustainable future for the planet and focuses on positive contributions we can make.</p>
+            </div>
 
         </section>
     </main>
@@ -78,18 +123,15 @@
             <ul class="footer__ul">
                 <span class="footer__headline">Opening Times</span>
                 <li>Monday: Closed</li>
-                <li>Tuesday: 10:00 – 16:00</li>
-                <li>Wednesday: 10:00 – 16:00</li>
-                <li>Thursday: 10:00 – 16:00</li>
-                <li>Friday: 10:00 – 19:00</li>
-                <li>Saturday: 9:00 – 16:00</li>
-                <li>Sunday: 9:00 – 13:00</li>
+                <li>Tuesday-Thursday: 09-16</li>
+                <li>Friday-Saturday: 09-19</li>
+                <li>Sunday: 09-17</li>
             </ul>
         </div>
         <div class="footer__block footer__column">
             <ul class="footer__ul">
                 <span class="footer__headline">The Science Club</span>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Join our Science Club</a></li>
             </ul>
             <ul class="footer__ul">
                 <span class="footer__headline">Keep in touch</span>
