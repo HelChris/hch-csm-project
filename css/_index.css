@@ -26,9 +26,33 @@
 .index-hours,
 .index-adress {
     display: flex;
-    text-align: center;
+    text-align: left;
     gap: 0.5rem;
     align-content: center;
+}
+
+.exhibition-card-wrapper {
+  width: 280px; 
+  border: 2px solid #FA9702;
+  border-radius: 8px 8px 0px 0px; 
+  background-color: #fff;
+  margin: 1em; 
+  box-shadow: 0px 4px 8px rgb(174, 173, 173);
+}
+
+.exhibition-card-img {
+  border-radius: 8px 8px 0px 0px; 
+} 
+
+.exhibition-cards {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.exhibition-card-text {
+  padding: 0em 1em 0em 1em;
 }
 
 /* ---------- Carousel ------ */
@@ -77,29 +101,6 @@
     color:white;
   }
   
-.exhibition-card-wrapper {
-    width: 280px; 
-    border: 2px solid #FA9702;
-    border-radius: 8px 8px 0px 0px; 
-    background-color: #fff;
-    margin: 1em; 
-    box-shadow: 0px 4px 8px rgb(174, 173, 173);
-  }
-
-.exhibition-card-img {
-    border-radius: 8px 8px 0px 0px; 
-  } 
-
-.exhibition-cards {
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-  }
-
-.exhibition-card-text {
-    padding: 0em 1em 0em 1em;
-}
 
 /* ----------Media queries----------- */
 @media (min-width: 700px) {

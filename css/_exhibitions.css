@@ -1,0 +1,19 @@
+.exhibition-of-the-month {
+    background: #000;
+    color: #fff;
+    width: 100vw;
+    min-width: 300px;
+    align-content: center;
+    padding-top: 0.5rem;
+}
+
+.exhibition-of-the-month-img {
+    border-radius: 1rem 0px 1rem 0px;
+}
+
+.exhibition-of-the-month-text {
+    display: flex;
+    padding: 0rem 2rem 1rem 2rem;
+    max-width: 550px;
+    margin: 0 auto;
+}

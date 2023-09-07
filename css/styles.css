@@ -1,4 +1,5 @@
 @import "_index.css";
+@import "_exhibitions.css";
 
 h1,
 h2,
@@ -8,18 +9,41 @@ h3 {
 }
 
 h2 {
-    line-height: 23px;
-    font-size: 19px;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
 }
 
 p {
-    font-size: 16px;
-    line-height: 19px;
-    padding: 0em 1em 0em 1em;
+    font-size: 1rem;
+    line-height: 1,25rem;
     text-align: left;
 }
 
+.button-orange {
+    color: #000;
+    background-color: #FA9702;
+    border: 3px solid #FCC167;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 760px;
+}
 
+.back-to-top {
+    text-decoration: none;
+    color: #000; 
+    align-content: center;
+    padding: 1rem;
+}
+
+.button-back-up-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
 /* ----Navigation----  */
 nav {
     background: #FDDCA9;
@@ -106,7 +130,7 @@ body {
     text-align: center;
     background-color: #FDEDD6;
     display: grid; 
-    grid-gap: 1em;
+    grid-gap: 1rem;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
@@ -118,7 +142,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    align-items: flex-start;
+    text-align: left;
 }
 
 footer a {
