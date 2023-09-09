@@ -1,6 +1,7 @@
 @import "_index.css";
 @import "_exhibitions.css";
 @import "_events.css";
+@import "_visit.css";
 
 h1,
 h2 {
@@ -9,19 +10,21 @@ h2 {
 }
 
 h1,
-h2 {
+h2, 
+h3,
+h4 {
     line-height: 1.5rem;
     font-size: 1.25rem;
 }
 
 p {
     font-size: 1rem;
-    line-height: 1,25rem;
+    line-height: 1.25rem;
     text-align: left;
 }
 
 .button-orange {
-    color: #fff;
+    color: #000;
     background-color: #FA9702;
     border: 3px solid #FCC167;
     border-radius: 0.5rem;
