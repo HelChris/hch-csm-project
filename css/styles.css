@@ -1,13 +1,14 @@
 @import "_index.css";
 @import "_exhibitions.css";
+@import "_events.css";
 
 h1,
-h2,
-h3 {
+h2 {
     text-transform: uppercase;
     text-align: center;
 }
 
+h1,
 h2 {
     line-height: 1.5rem;
     font-size: 1.25rem;
@@ -20,13 +21,13 @@ p {
 }
 
 .button-orange {
-    color: #000;
+    color: #fff;
     background-color: #FA9702;
     border: 3px solid #FCC167;
     border-radius: 0.5rem;
     padding: 0.8rem;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     margin: 0 auto;
     width: 80%;
     max-width: 760px;

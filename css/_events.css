@@ -1,0 +1,54 @@
+.bold-font-headline-events{
+    font-weight: 700;
+    text-align: center;
+}
+
+.event-card {
+    background: #fff; 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    border-radius: 1rem 0px 1rem 0px;
+    width: 80%;
+
+}
+
+.event-date {
+    color: #fff;
+    background: #FA9702;
+    border: 3px solid #FCC167;
+    border-radius: 1rem 0px 1rem 0px;
+    padding: 1rem;
+    max-height: 10px;
+    max-width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.purple-date {
+    background: #910885;
+    border: 3px solid #CF0CBE;
+}
+
+.event-text {
+    max-width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 700px) {
+    .event-card {
+        min-width: 700px;
+        max-width: 50%;
+        padding: 1rem;
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .h2-event{
+        text-align: left;
+        padding: 0rem 0rem 0rem 1.5rem;
+        align-content: start;
+    } 
+}
