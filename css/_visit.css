@@ -82,7 +82,40 @@ ul {
     flex-direction: column;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
+    .visit-open-admission {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
+    .public-transport-desk {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    
+    .public-transport-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 330px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+
+    }
+
+    .transport-icon {
+        height: 81px;
+        justify-content: center;
+    }
+
     .facilities-card-wrapper {
         display: flex;
         flex-direction: column;
