@@ -1,16 +1,16 @@
 ul {
     list-style-type: none;
-    list-style-position:inside;
+    list-style-position: inside;
     text-align: left;
     padding: 0;
     margin: 0.3rem auto;
 }
 
 .visit-open-admission {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 0.3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.3rem auto;
 }
 
 .visit-open-admission-info {
@@ -19,11 +19,11 @@ ul {
 }
 
 .visit-adress {
-   display:flex;
-   flex-direction: row;
-   justify-content: center;
-   margin: auto;
-   font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    font-weight: 700;
 }
 
 .visit-icon {
@@ -71,15 +71,16 @@ ul {
 }
 
 .facility-card-icon {
-    padding: 1rem;
+    padding-top: 1rem;
     margin: 0 auto;
 }
 
 .facility-card-text {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0rem 1rem 1.5rem 1rem;
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 @media (min-width: 850px) {
@@ -91,14 +92,14 @@ ul {
         justify-content: center;
         gap: 4rem;
     }
-    
+
     .public-transport-desk {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
     }
-    
+
     .public-transport-item {
         display: flex;
         flex-direction: column;
@@ -108,7 +109,6 @@ ul {
         max-width: 330px;
         padding-left: 0.8rem;
         padding-right: 0.8rem;
-
     }
 
     .transport-icon {
@@ -120,12 +120,13 @@ ul {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        min-width: 670px;
     }
 
     .facilities-cards {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-width: 600px;
+        align-items: center;
     }
 }
