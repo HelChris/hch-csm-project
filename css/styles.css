@@ -3,6 +3,7 @@
 @import "_events.css";
 @import "_visit.css";
 @import "_involved.css";
+@import "_explore.css";
 
 h1,
 h2 {
@@ -24,10 +25,7 @@ p {
     text-align: left;
 }
 
-.button-orange {
-    color: #000;
-    background-color: #FA9702;
-    border: 3px solid #FCC167;
+.buttons {
     border-radius: 0.5rem;
     padding: 0.8rem;
     text-decoration: none;
@@ -35,6 +33,33 @@ p {
     margin: 0 auto;
     width: 80%;
     max-width: 760px;
+}
+
+.button-orange {
+    color: #000;
+    background-color: #FA9702;
+    border: 3px solid #FCC167;
+}
+
+.button-blackish {
+    color: #393939;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgb(174, 173, 173);
+    font-weight: 600;
+    width: 164px;
+}
+
+.button-brown {
+    color: #8E5E3A;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgb(174, 173, 173);
+    font-weight: 600;
+    width: 164px;
+}
+
+.button-blue {
+    color: #fff;
+    background: #0F90F2;
 }
 
 .back-to-top {

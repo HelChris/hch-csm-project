@@ -1,0 +1,28 @@
+.join-newsletter-section {
+    color: #fff;
+    background: #393939;
+    padding: 1rem;
+}
+
+.join-science-club-section {
+    color: #fff;
+    background: #8E5E3A;
+    padding: 1rem;
+}
+
+.img-mammoth,
+.img-sicence-club {
+    width: 300px;
+    height: 150px;
+    border-radius: 8px 250px 250px 8px;
+}
+
+.img-sicence-club {
+    border-radius: 250px 8px 8px 250px;
+}
+
+.copy {
+    /* padding: 0rem 1rem 0rem 1rem; */
+    width: 85%;
+    margin: 0 auto;
+}
