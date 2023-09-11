@@ -11,21 +11,21 @@
     padding: 1rem;
 }
 
-
-@media (min-width: 44em) {
+@media (min-width: 1250px) {
     .involved-section {
         display: flex;
         flex-direction: row;
         padding: 1rem;
         justify-content: flex-start;
+        /* flex-wrap: wrap; */
     }
 
     .involved-item {
-        width: 80%;
+        min-width: 330px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         padding: 2rem;
-        margin: auto;
+        margin: 0 auto;
     }
 }
