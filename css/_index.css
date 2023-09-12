@@ -166,6 +166,7 @@
 .carousel-info {
   display: flex;
   flex-direction: column;
-  background-color: hsla(0, 0%, 100%, 0.55);
+  background-color: hsla(0, 0%, 100%, 0.90);
   font-size: 16px;
+  padding: 0rem 1rem 1rem 1rem;
 }
