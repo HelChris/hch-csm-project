@@ -23,9 +23,10 @@
 }
 
 @media (min-width: 900px) {
-    .exhibition-of-the-month{
+    .exhibition-of-the-month {
         display: flex;
         flex-direction: row;
+        max-width: 100vw;
     }
 
     .monthly-h2-image {
