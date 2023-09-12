@@ -32,6 +32,10 @@
   align-content: center;
 }
 
+.index-icon {
+  width: 24px;
+}
+
 .exhibition-card-wrapper {
   width: 280px;
   border: 2px solid #FA9702;
