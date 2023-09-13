@@ -62,10 +62,9 @@
 
 /* ---------- Carousel ------ */
 .carousel-wrapper {
-  height: 400px;
+  min-height: 43rem;
   position: relative;
   width: 80vw;
-  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -75,11 +74,20 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 25px 50px;
+  padding: 1.5em 3em;
   opacity: 0;
   transition: all 0.5s ease-in-out;
   display: flex;
   align-items: flex-end;
+}
+
+.carousel-info {
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 100%, 0.90);
+  padding: 0rem 1em 1em 1em;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .arrow {
@@ -107,30 +115,6 @@
   color: white;
 }
 
-
-/* ----------Media queries----------- */
-@media (min-width: 700px) {
-
-  .index-orange-infocard,
-  .orange-plan-visit-link {
-    max-width: 50vw;
-  }
-
-}
-
-@media (max-width: 700px) {
-
-  .arrow,
-  .light .arrow {
-    background-size: 10px;
-    background-position: 10px 50%;
-  }
-
-  .carousel-item {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-}
 
 [id^="item"] {
   display: none;
@@ -167,10 +151,23 @@
   opacity: 1;
 }
 
-.carousel-info {
-  display: flex;
-  flex-direction: column;
-  background-color: hsla(0, 0%, 100%, 0.90);
-  font-size: 16px;
-  padding: 0rem 1rem 1rem 1rem;
+
+/* ----------Media queries----------- */
+@media (min-width: 56.25em) {
+
+  .index-orange-infocard,
+  .orange-plan-visit-link {
+    max-width: 50vw;
+  }
+
+  .arrow,
+  .light .arrow {
+    background-size: 10px;
+    background-position: 10px 50%;
+  }
+
+  .carousel-item {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }

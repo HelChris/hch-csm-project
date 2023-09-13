@@ -33,7 +33,7 @@
     margin: auto;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 56.25em) {
     .event-card {
         min-width: 700px;
         max-width: 50%;

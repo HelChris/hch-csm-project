@@ -102,6 +102,7 @@ nav a {
     text-decoration: none;
     padding-bottom: 0.3rem;
     padding-right: 0.5rem;
+    margin: 1rem;
 }
 
 .active {
@@ -189,7 +190,7 @@ footer a {
     line-height: 0.5rem;
 }
 
-@media (min-width: 44em) {
+@media (min-width: 56.25em) {
     nav {
         display: inline-flex;
         position: static;
