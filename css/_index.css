@@ -9,6 +9,11 @@
   border-radius: 0.5rem;
   font-weight: bold;
   padding-bottom: 0.5rem;
+  transition: transform 300ms ease;
+}
+
+.index-orange-infocard:hover {
+  transform: scale(1.1);
 }
 
 .orange-plan-visit-link {

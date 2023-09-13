@@ -33,6 +33,12 @@ p {
     margin: 0 auto;
     width: 80%;
     max-width: 760px;
+    transition: transform 300ms ease;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    transform: scale(1.1);
 }
 
 .button-orange {
