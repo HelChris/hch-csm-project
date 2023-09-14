@@ -194,6 +194,8 @@ footer {
 footer a {
     text-decoration: none;
     color: #480543;
+    padding-top: 0.98rem;
+    padding-bottom: 0.98rem;
 }
 
 .footer-headline {
