@@ -25,10 +25,6 @@ p {
     text-align: left;
 }
 
-a {
-    padding: 1rem;
-}
-
 a:hover {
     text-decoration: underline;
 }
@@ -199,7 +195,6 @@ footer a {
     text-decoration: none;
     color: #480543;
 }
-
 
 .footer-headline {
     font-weight: bold;
