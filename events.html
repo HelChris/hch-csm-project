@@ -1,123 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join us for an exciting lineup of events at the Community Science Museum! From sleepovers to visiting professors, we have something for everyone. Check out our calendar and join us for a fun-filled day of science!">
-    <title>Community Science Museum | Events</title>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;700&family=Ubuntu:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <a href="index.html">
-            <img
-                src="/images/CSM-logo100-50px2purple.svg" id="csm-logo" class="logo-mobile"
-                alt="Community Science Museum logo">
-        </a>
-        <input type="checkbox" id="menu-checkbox">
-        <label for="menu-checkbox"
-            ><iconify-icon
-                class="hamburger-icon"
-                icon="pajamas:hamburger"
-            ></iconify-icon
-        ></label>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="exhibitions.html">Exhibitions</a>
-            <a href="events.html" class="active">Events</a>
-            <a href="visit.html">Visit</a>
-            <a href="involved.html">Get involved</a>
-            <a href="explore.html">Explore</a>
-        </nav>
-    </header>
-    <main>
-        <picture class="hexagon-figure">
-            <source media="(min-width: 56.25em)"
-            srcset="/images/img_events_deskt.jpg">
-            <img class="hexagon-img" src="images/img_events_mob.jpg" alt="A child uses a tablet to control three small blue robots on a dark blue carpet in a classroom.">
-        </picture>
-        <h1>Upcoming events</h1>
-        <section class="events">
-            <div class="event-card">
-                <div class="event-date">
-                    <p class="bold-font-headline-events">16.sept</p>
-                </div>
-                <div class="event-info">
-                    <h2 class="bold-font-headline-events h2-event">Visiting Professor of Aeronautics</h2>
-                    <p class="event-text">It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                </div>
-            </div>
-            <div class="event-card">
-                <div class="event-date">
-                    <p class="bold-font-headline-events">30.sept</p>
-                </div>
-                <div class="event-info">
-                    <h2 class="bold-font-headline-events h2-event">Night in the Museum</h2>
-                    <p class="event-text">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-                </div>
-            </div><div class="event-card">
-                <div class="event-date">
-                    <p class="bold-font-headline-events">Oct-Des</p>
-                </div>
-                <div class="event-info">
-                    <h2 class="bold-font-headline-events h2-event">Energetica Exhibition on Loan</h2>
-                    <p class="event-text">On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-                </div>
-            </div><div class="event-card">
-                <div class="event-date">
-                    <p class="bold-font-headline-events">30.oct</p>
-                </div>
-                <div class="event-info">
-                    <h2 class="bold-font-headline-events h2-event">Night in the Museum</h2>
-                    <p class="event-text">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-                </div>
-            </div>
-        </section>
-        <div class="button-back-up-links">
-            <p class="bold-font-headline-events">Want to get more involved?</p>
-            <a href="involved.html" class="buttons button-orange">Yes, tell me more</a>
-            <a href="#" class="back-to-top">Back To Top<img src="images/icon-arrow-up.svg" alt="arrow up icon"></a>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <h3 class="footer-headline">Location</h3>
-            <address>Community Science Museum <br> Kjelsasveien 143,<br>0491 Oslo <br>
-            </address>
-            <h3 class="footer-headline">Contact</h3>
-            <address>
-                <a href="mailto:contact@csm.com">contact@csm.com</a><br><br>
-                <a href="tel:+47198653209">(+47) 1 98 65 32 09</a>
-            </address>
-        </div>
-        <div>
-            <h3 class="footer-headline">Opening Times</h3>
-            <p>Monday: Closed</p>
-            <p>Tuesday-Thursday: 09-16</p>
-            <p>Friday-Saturday: 09-19</p>
-            <p>Sunday: 09-17</p>
-        </div>
-        <div>
-            <h3 class="footer-headline">The Science Club</h3>
-            <a href="#">Join our Science Club</a>
-            <h3 class="footer-headline">Keep in touch</h3>
-            <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
-            <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
-            <p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
-        </div>
-        <div>
-            <h3 class="footer-headline">Quick links</h3>
-            <p><a href="events.html">Events</a></p>
-            <p><a href="visit.html">Plan your visit</a></p>
-            <p><a href="involved.html">Volunteering</a></p>
-            <p><a href="involved.html">Internship</a></p>
-            <p><a href="explore.html">Researchers</a></p>
-            <p><a href="explore.html">Learning Resources</a></p>
-        </div>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Events | Community Science Museum</title>
+		<meta
+			name="description"
+			content="Join us for an exciting lineup of events at the Community Science Museum! From sleepovers to visiting professors, we have something for everyone. Check out our calendar and join us for a fun-filled day of science!"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="images\favicon\apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images\favicon\favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="images\favicon\favicon-16x16.png"
+		/>
+		<link rel="manifest" href="images\favicon\site.webmanifest" />
+		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;700&family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img
+					src="/images/CSM-logo100-50px2purple.svg"
+					id="csm-logo"
+					class="logo-mobile"
+					alt="Community Science Museum logo"
+				/>
+			</a>
+			<input type="checkbox" id="menu-checkbox" />
+			<label for="menu-checkbox"
+				><iconify-icon
+					class="hamburger-icon"
+					icon="pajamas:hamburger"
+				></iconify-icon
+			></label>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="exhibitions.html">Exhibitions</a>
+				<a href="events.html" class="active">Events</a>
+				<a href="visit.html">Visit</a>
+				<a href="involved.html">Get involved</a>
+				<a href="explore.html">Explore</a>
+			</nav>
+		</header>
+		<main>
+			<picture class="hexagon-figure">
+				<source
+					media="(min-width: 56.25em)"
+					srcset="/images/img_events_deskt.jpg"
+				/>
+				<img
+					class="hexagon-img"
+					src="images/img_events_mob.jpg"
+					alt="A child uses a tablet to control three small blue robots on a dark blue carpet in a classroom."
+				/>
+			</picture>
+			<h1>Upcoming events</h1>
+			<section class="events">
+				<div class="event-card">
+					<div class="event-date">
+						<p class="bold-font-headline-events">16.sept</p>
+					</div>
+					<div class="event-info">
+						<h2 class="bold-font-headline-events h2-event">
+							Visiting Professor of Aeronautics
+						</h2>
+						<p class="event-text">
+							It is our pleasure to announce that Prof Sheila Widnall from the
+							Massachusetts Institute of Technology will be delivering 3
+							lectures on the development of aeronautics and where the future
+							lies in this exciting ‘space’.
+						</p>
+					</div>
+				</div>
+				<div class="event-card">
+					<div class="event-date">
+						<p class="bold-font-headline-events">30.sept</p>
+					</div>
+					<div class="event-info">
+						<h2 class="bold-font-headline-events h2-event">
+							Night in the Museum
+						</h2>
+						<p class="event-text">
+							Get your family together for an exciting night in the museum as
+							you sleep over beside dinosaurs and science displays. Bring your
+							own sleeping bag and get ready to rough it as we go exploring the
+							wonders of science.
+						</p>
+					</div>
+				</div>
+				<div class="event-card">
+					<div class="event-date">
+						<p class="bold-font-headline-events">Oct-Des</p>
+					</div>
+					<div class="event-info">
+						<h2 class="bold-font-headline-events h2-event">
+							Energetica Exhibition on Loan
+						</h2>
+						<p class="event-text">
+							On loan from the NEMO Science Museum in Amsterdam, the Energetica
+							exhibition is coming to the Community Science Museum. It’s a
+							series of installations that allow visitors to experience the
+							power of the elements as we harness them. From solar energy
+							powering lighting, to ‘Wind Island’ that shows how turbines are
+							able to use and control wind to create power.
+						</p>
+					</div>
+				</div>
+				<div class="event-card">
+					<div class="event-date">
+						<p class="bold-font-headline-events">30.oct</p>
+					</div>
+					<div class="event-info">
+						<h2 class="bold-font-headline-events h2-event">
+							Night in the Museum
+						</h2>
+						<p class="event-text">
+							Get your family together for an exciting night in the museum as
+							you sleep over beside dinosaurs and science displays. Bring your
+							own sleeping bag and get ready to rough it as we go exploring the
+							wonders of science.
+						</p>
+					</div>
+				</div>
+			</section>
+			<div class="button-back-up-links">
+				<p class="bold-font-headline-events">Want to get more involved?</p>
+				<a href="involved.html" class="buttons button-orange"
+					>Yes, tell me more</a
+				>
+				<a href="#" class="back-to-top"
+					>Back To Top<img src="images/icon-arrow-up.svg" alt="arrow up icon"
+				/></a>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<h3 class="footer-headline">Location</h3>
+				<address>
+					Community Science Museum <br />
+					Kjelsasveien 143,<br />0491 Oslo <br />
+				</address>
+				<h3 class="footer-headline">Contact</h3>
+				<address>
+					<a href="mailto:contact@csm.com">contact@csm.com</a><br /><br />
+					<a href="tel:+47198653209">(+47) 1 98 65 32 09</a>
+				</address>
+			</div>
+			<div>
+				<h3 class="footer-headline">Opening Times</h3>
+				<p>Monday: Closed</p>
+				<p>Tuesday-Thursday: 09-16</p>
+				<p>Friday-Saturday: 09-19</p>
+				<p>Sunday: 09-17</p>
+			</div>
+			<div>
+				<h3 class="footer-headline">The Science Club</h3>
+				<a href="#">Join our Science Club</a>
+				<h3 class="footer-headline">Keep in touch</h3>
+				<p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+				<p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+				<p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+			</div>
+			<div>
+				<h3 class="footer-headline">Quick links</h3>
+				<p><a href="events.html">Events</a></p>
+				<p><a href="visit.html">Plan your visit</a></p>
+				<p><a href="involved.html">Volunteering</a></p>
+				<p><a href="involved.html">Internship</a></p>
+				<p><a href="explore.html">Researchers</a></p>
+				<p><a href="explore.html">Learning Resources</a></p>
+			</div>
+		</footer>
+	</body>
 </html>

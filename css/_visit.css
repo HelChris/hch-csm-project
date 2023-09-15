@@ -49,6 +49,7 @@ ul {
 .public-transport-item {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .public-transport,
@@ -109,6 +110,11 @@ ul {
         max-width: 330px;
         padding-left: 0.8rem;
         padding-right: 0.8rem;
+        flex: 1;
+    }
+
+    .public-transport-item p {
+        text-align: center;
     }
 
     .transport-icon {

@@ -1,152 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Community Science Museum! Our interactive exhibits and activities are designed to inspire curiosity and learning in children aged 7-15. Visit us today to explore the wonders of science!">
-    <title>Community Science Museum | Home</title>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;700&family=Ubuntu:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <a href="index.html">
-            <img
-                src="/images/CSM-logo100-50px2purple.svg" id="csm-logo" class="logo-mobile"
-                alt="Community Science Museum logo">
-        </a>
-        <input type="checkbox" id="menu-checkbox">
-        <label for="menu-checkbox">
-            <iconify-icon
-                class="hamburger-icon"
-                icon="pajamas:hamburger">
-                </iconify-icon>
-            </label>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="exhibitions.html">Exhibitions</a>
-            <a href="events.html">Events</a>
-            <a href="visit.html">Visit</a>
-            <a href="involved.html">Get involved</a>
-            <a href="explore.html">Explore</a>
-        </nav>
-    </header>
-    <main>
-        <picture class="hexagon-figure">
-            <source media="(min-width: 56.25em)"
-            srcset="/images/hexagon-banner-big-finall-v.2.jpg">
-            <img class="hexagon-img-index" src="images/hexagon-banner-small-v.2.jpg" alt="a collage of hexagonshaped pictures of kids exploring different activities in the musem">
-        </picture>
-        <section>
-            <h1>Welcome to the Museum</h1>
-            <div class="index-orange-infocard">
-                <a href="visit.html" class="orange-plan-visit-link">Plan your visit</a>
-                <div class="index-hours">
-                    <img src="/images/icon-clock-small.svg" alt="orange clock icon" class="index-icon">
-                    <p>TODAYS OPENING HOURS: <br>
-                        09.00-16.00
-                    </p>
-                </div>
-                <div class="index-adress">
-                    <img src="/images/icon-map-small.svg" alt="orange map icon" class="index-icon">
-                    <address>Community Science Museum<br>
-                        Kjelsasveien 143, 0491 Oslo
-                    </address>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Explore with us</h2>
-            <div class="carousel-wrapper">
-                <span id="item-1"></span>
-                <span id="item-2"></span>
-                <span id="item-3"></span>
-                <div class="carousel-item item-1">
-                  <div class="carousel-info">
-                      <h2>Meet Wooly the Mammoth</h2>
-                      <p>See the amazing skeleton of a mammoth, an ancient animal that lived thousands of years ago. The mammoth was like a giant elephant with long, curved tusks and a long trunk. Learn about the history, evolution, and extinction of the mammoth. Don’t miss it!</p>
-                      <a class="arrow arrow-prev" href="#item-3"></a>
-                      <a class="arrow arrow-next" href="#item-2"></a>
-                  </div>
-                </div>
-                <div class="carousel-item item-2">
-                  <div class="carousel-info">
-                      <h2>Robotics Workshop</h2>
-                      <p>Learn how to build and program your own robot with this workshop! You will use a laptop, a speaker, and a small robot to make it move, talk, and interact. You will also explore the science and engineering behind robotics. This workshop is fun, hands-on, and creative. Join us and become a robotics expert!</p>
-                      <a class="arrow arrow-prev" href="#item-1"></a>
-                      <a class="arrow arrow-next" href="#item-3"></a>
-                  </div>
-                </div>
-                <div class="carousel-item item-3">
-                  <div class="carousel-info">
-                      <h2>Virtual Reality Painting</h2>
-                      <p>Have you ever wondered what it would be like to paint in a virtual world? Choose brushes, colors, and effects to make 3D artworks. Learn and have fun with art, technology, and science. Try it and be an artist!</p>
-                      <a class="arrow arrow-prev" href="#item-2"></a>
-                      <a class="arrow arrow-next" href="#item-1"></a>
-                  </div>
-                </div>
-            </div>
-        </section>
-        <section class="exhibition-cards">
-            <div class="exhibition-card-wrapper">
-                <img src="/images/exhibition-biology.jpg" class="exhibition-card-img" alt="heart model">
-                <h2>Biology and Medicine</h2>
-                <p class="exhibition-card-text">The biology and medicine exhibition showcases the wonders of the tiny world, from micro-organisms to the human body. It explores the history of medicine and major breakthroughs, including penicillin discovery and the first heart transplant. Observing animals in the wild has also led to many medicinal discoveries</p>
-            </div>
-            <div class="exhibition-card-wrapper">
-                <img src="/images/exhibition-robotics.jpg" class="exhibition-card-img" alt="a row of robots on wheels buildt with legos">
-                <h2>Robotics and AI</h2>
-                <p class="exhibition-card-text">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
-            </div>
-            <div class="exhibition-card-wrapper">
-                <img src="/images/exhibition-ecology.jpg" class="exhibition-card-img"  alt="inside a forest looking up on a circle of tall threes with green leafs">
-                <h2>Ecology</h2>
-                <p class="exhibition-card-text">The museum’s ecology section highlights the impact of humans on the planet, including global warming, species extinction, and pollution. It also explores ways to create a sustainable future for the planet and focuses on positive contributions we can make.</p>
-            </div>
-        </section>
-        <div class="button-back-up-links">
-            <a href="exhibitions.html" class="buttons button-orange">More Exhibitions</a>
-            <a href="#" class="back-to-top">Back To Top<img src="images/icon-arrow-up.svg" alt="arrow up icon"></a>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <h3 class="footer-headline">Location</h3>
-            <address>Community Science Museum <br> Kjelsasveien 143,<br>0491 Oslo <br>
-            </address>
-            <h3 class="footer-headline">Contact</h3>
-            <address>
-                <a href="mailto:contact@csm.com">contact@csm.com</a><br><br>
-                <a href="tel:+47198653209">(+47) 1 98 65 32 09</a>
-            </address>
-        </div>
-        <div>
-            <h3 class="footer-headline">Opening Times</h3>
-            <p>Monday: Closed</p>
-            <p>Tuesday-Thursday: 09-16</p>
-            <p>Friday-Saturday: 09-19</p>
-            <p>Sunday: 09-17</p>
-        </div>
-        <div>
-            <h3 class="footer-headline">The Science Club</h3>
-            <a href="#">Join our Science Club</a>
-            <h3 class="footer-headline">Keep in touch</h3>
-            <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
-            <p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
-            <p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
-        </div>
-        <div>
-            <h3 class="footer-headline">Quick links</h3>
-            <p><a href="events.html">Events</a></p>
-            <p><a href="visit.html">Plan your visit</a></p>
-            <p><a href="involved.html">Volunteering</a></p>
-            <p><a href="involved.html">Internship</a></p>
-            <p><a href="explore.html">Researchers</a></p>
-            <p><a href="explore.html">Learning Resources</a></p>
-        </div>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Welcome to the Community Science Museum! Our interactive exhibits and activities are designed to inspire curiosity and learning in children aged 7-15. Visit us today to explore the wonders of science!"
+		/>
+		<title>Home | Community Science Museum</title>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="images\favicon\apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="images\favicon\favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="images\favicon\favicon-16x16.png"
+		/>
+		<link rel="manifest" href="images\favicon\site.webmanifest" />
+		<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;700&family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img
+					src="/images/CSM-logo100-50px2purple.svg"
+					id="csm-logo"
+					class="logo-mobile"
+					alt="Community Science Museum logo"
+				/>
+			</a>
+			<input type="checkbox" id="menu-checkbox" />
+			<label for="menu-checkbox">
+				<iconify-icon class="hamburger-icon" icon="pajamas:hamburger">
+				</iconify-icon>
+			</label>
+			<nav>
+				<a href="index.html" class="active">Home</a>
+				<a href="exhibitions.html">Exhibitions</a>
+				<a href="events.html">Events</a>
+				<a href="visit.html">Visit</a>
+				<a href="involved.html">Get involved</a>
+				<a href="explore.html">Explore</a>
+			</nav>
+		</header>
+		<main>
+			<picture class="hexagon-figure">
+				<source
+					media="(min-width: 56.25em)"
+					srcset="/images/hexagon-banner-big-finall-v.2.jpg"
+				/>
+				<img
+					class="hexagon-img-index"
+					src="images/hexagon-banner-small-v.2.jpg"
+					alt="a collage of hexagonshaped pictures of kids exploring different activities in the musem"
+				/>
+			</picture>
+			<section>
+				<h1>Welcome to the Museum</h1>
+				<div class="index-orange-infocard">
+					<a href="visit.html" class="orange-plan-visit-link"
+						>Plan your visit</a
+					>
+					<div class="index-hours">
+						<img
+							src="/images/icon-clock-small.svg"
+							alt="orange clock icon"
+							class="index-icon"
+						/>
+						<p>
+							TODAYS OPENING HOURS: <br />
+							09.00-16.00
+						</p>
+					</div>
+					<div class="index-adress">
+						<img
+							src="/images/icon-map-small.svg"
+							alt="orange map icon"
+							class="index-icon"
+						/>
+						<address>
+							Community Science Museum<br />
+							Kjelsasveien 143, 0491 Oslo
+						</address>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2>Explore with us</h2>
+				<div class="carousel-wrapper">
+					<span id="item-1"></span>
+					<span id="item-2"></span>
+					<span id="item-3"></span>
+					<div class="carousel-item item-1">
+						<div class="carousel-info">
+							<h2>Meet Wooly the Mammoth</h2>
+							<p>
+								See the amazing skeleton of a mammoth, an ancient animal that
+								lived thousands of years ago. The mammoth was like a giant
+								elephant with long, curved tusks and a long trunk. Learn about
+								the history, evolution, and extinction of the mammoth. Don’t
+								miss it!
+							</p>
+							<a class="arrow arrow-prev" href="#item-3"></a>
+							<a class="arrow arrow-next" href="#item-2"></a>
+						</div>
+					</div>
+					<div class="carousel-item item-2">
+						<div class="carousel-info">
+							<h2>Robotics Workshop</h2>
+							<p>
+								Learn how to build and program your own robot with this
+								workshop! You will use a laptop, a speaker, and a small robot to
+								make it move, talk, and interact. You will also explore the
+								science and engineering behind robotics. This workshop is fun,
+								hands-on, and creative. Join us and become a robotics expert!
+							</p>
+							<a class="arrow arrow-prev" href="#item-1"></a>
+							<a class="arrow arrow-next" href="#item-3"></a>
+						</div>
+					</div>
+					<div class="carousel-item item-3">
+						<div class="carousel-info">
+							<h2>Virtual Reality Painting</h2>
+							<p>
+								Have you ever wondered what it would be like to paint in a
+								virtual world? Choose brushes, colors, and effects to make 3D
+								artworks. Learn and have fun with art, technology, and science.
+								Try it and be an artist!
+							</p>
+							<a class="arrow arrow-prev" href="#item-2"></a>
+							<a class="arrow arrow-next" href="#item-1"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="exhibition-cards">
+				<div class="exhibition-card-wrapper">
+					<img
+						src="/images/exhibition-biology.jpg"
+						class="exhibition-card-img"
+						alt="heart model"
+					/>
+					<h2>Biology and Medicine</h2>
+					<p class="exhibition-card-text">
+						The biology and medicine exhibition showcases the wonders of the
+						tiny world, from micro-organisms to the human body. It explores the
+						history of medicine and major breakthroughs, including penicillin
+						discovery and the first heart transplant. Observing animals in the
+						wild has also led to many medicinal discoveries
+					</p>
+				</div>
+				<div class="exhibition-card-wrapper">
+					<img
+						src="/images/exhibition-robotics.jpg"
+						class="exhibition-card-img"
+						alt="a row of robots on wheels buildt with legos"
+					/>
+					<h2>Robotics and AI</h2>
+					<p class="exhibition-card-text">
+						The information revolution is here and robotics and artificial
+						intelligence are the science of the future. From useful home
+						applications of AI to industrial uses of robotics, the future is
+						here. You can even say hello and shake the hand of Rob the Robot.
+					</p>
+				</div>
+				<div class="exhibition-card-wrapper">
+					<img
+						src="/images/exhibition-ecology.jpg"
+						class="exhibition-card-img"
+						alt="inside a forest looking up on a circle of tall threes with green leafs"
+					/>
+					<h2>Ecology</h2>
+					<p class="exhibition-card-text">
+						The museum’s ecology section highlights the impact of humans on the
+						planet, including global warming, species extinction, and pollution.
+						It also explores ways to create a sustainable future for the planet
+						and focuses on positive contributions we can make.
+					</p>
+				</div>
+			</section>
+			<div class="button-back-up-links">
+				<a href="exhibitions.html" class="buttons button-orange"
+					>More Exhibitions</a
+				>
+				<a href="#" class="back-to-top"
+					>Back To Top<img src="images/icon-arrow-up.svg" alt="arrow up icon"
+				/></a>
+			</div>
+		</main>
+		<footer>
+			<div>
+				<h3 class="footer-headline">Location</h3>
+				<address>
+					Community Science Museum <br />
+					Kjelsasveien 143,<br />0491 Oslo <br />
+				</address>
+				<h3 class="footer-headline">Contact</h3>
+				<address>
+					<a href="mailto:contact@csm.com">contact@csm.com</a><br /><br />
+					<a href="tel:+47198653209">(+47) 1 98 65 32 09</a>
+				</address>
+			</div>
+			<div>
+				<h3 class="footer-headline">Opening Times</h3>
+				<p>Monday: Closed</p>
+				<p>Tuesday-Thursday: 09-16</p>
+				<p>Friday-Saturday: 09-19</p>
+				<p>Sunday: 09-17</p>
+			</div>
+			<div>
+				<h3 class="footer-headline">The Science Club</h3>
+				<a href="#">Join our Science Club</a>
+				<h3 class="footer-headline">Keep in touch</h3>
+				<p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+				<p><a href="https://www.facebook.com" target="_blank">Facebook</a></p>
+				<p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+			</div>
+			<div>
+				<h3 class="footer-headline">Quick links</h3>
+				<p><a href="events.html">Events</a></p>
+				<p><a href="visit.html">Plan your visit</a></p>
+				<p><a href="involved.html">Volunteering</a></p>
+				<p><a href="involved.html">Internship</a></p>
+				<p><a href="explore.html">Researchers</a></p>
+				<p><a href="explore.html">Learning Resources</a></p>
+			</div>
+		</footer>
+	</body>
 </html>

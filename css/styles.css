@@ -11,7 +11,10 @@ h2 {
     text-align: center;
 }
 
-h1,
+h1 {
+    font-size: 2rem;
+}
+
 h2,
 h3,
 h4 {
@@ -90,11 +93,6 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-/* .form-input {
-    width: 100%;
-    clear: both;
-} */
 
 .get-involved-form {
     background: #CCE7FB;
