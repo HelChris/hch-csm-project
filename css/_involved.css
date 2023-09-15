@@ -12,13 +12,18 @@
 }
 
 .get-involved-form {
-	max-width: 400px;
+	max-width: 500px;
 	margin: 0 auto;
     padding: 1rem;
 }
 
 .get-involved-form fieldset {
 	border: none;
+}
+
+.get-involved-form legend {
+	font-size: 22px;
+    font-weight: bold;
 }
 
 .get-involved-form fieldset > div {
