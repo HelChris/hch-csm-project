@@ -72,6 +72,12 @@ a:hover {
     background: #0F90F2;
 }
 
+.button-back-up-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .back-to-top {
     text-decoration: none;
     color: #000;
@@ -79,11 +85,21 @@ a:hover {
     padding: 1rem;
 }
 
-.button-back-up-links {
+.forms {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    flex-wrap: wrap;
 }
+
+/* .form-input {
+    width: 100%;
+    clear: both;
+} */
+
+.get-involved-form {
+    background: #CCE7FB;
+}
+
 
 /* ----Navigation----  */
 nav {
