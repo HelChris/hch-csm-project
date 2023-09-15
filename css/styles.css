@@ -88,16 +88,6 @@ a:hover {
     padding: 1rem;
 }
 
-.forms {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.get-involved-form {
-    background: #CCE7FB;
-}
-
 
 /* ----Navigation----  */
 nav {

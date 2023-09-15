@@ -11,6 +11,26 @@
     padding: 1rem;
 }
 
+.get-involved-form {
+	max-width: 400px;
+	margin: 0 auto;
+    padding: 1rem;
+}
+
+.get-involved-form fieldset {
+	border: none;
+}
+
+.get-involved-form fieldset > div {
+	margin-top: 1rem;
+	text-align: left;
+}
+
+.form-wrapper {
+    background: #CCE7FB;
+    background-size: 100vw;
+}
+
 @media (min-width: 1250px) {
     .involved-section {
         display: flex;

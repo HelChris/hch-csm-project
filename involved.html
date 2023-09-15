@@ -147,35 +147,43 @@
 					</p>
 				</section>
 			</div>
-			<section class="forms get-involved-form">
-				<h2>Do you want to get involved?</h2>
-				<form>
-					<div>
-						<input
-							type="radio"
-							id="radio1"
-							name="get-involved"
-							value="support"
-						/>
-						<label>Yes, I'd like to support</label><br />
-						<input
-							type="radio"
-							id="radio1"
-							name="get-involved"
-							value="volunteer"
-						/>
-						<label>Yes, I'd like to volunteer</label><br />
-						<input
-							type="radio"
-							id="radio1"
-							name="get-involved"
-							value="internship"
-						/>
-						<label>Yes, I'd like to apply for internship</label>
-					</div>
+			<div class="form-wrapper">
+				<form class="get-involved-form">
+					<fieldset>
+						<legend>How would you like to get involved?</legend>
+						<div>
+							<input
+								type="radio"
+								id="radioSupport"
+								name="get-involved"
+								value="support"
+							/>
+							<label for="radioSupport">Yes, I'd like to support</label>
+						</div>
+						<div>
+							<input
+								type="radio"
+								id="radioVolunteer"
+								name="get-involved"
+								value="volunteer"
+							/>
+							<label for="radioVolunteer">Yes, I'd like to volunteer</label>
+						</div>
+						<div>
+							<input
+								type="radio"
+								id="radioInternship"
+								name="get-involved"
+								value="internship"
+							/>
+							<label for="radioInternship"
+								>Yes, I'd like to apply for internship</label
+							>
+						</div>
+					</fieldset>
 					<button class="button button-blue">Get involved</button>
 				</form>
-			</section>
+			</div>
 			<div class="button-back-up-links">
 				<a href="#" class="back-to-top"
 					>Back To Top<img src="images/icon-arrow-up.svg" alt="arrow up icon"
