@@ -1,3 +1,21 @@
+:root {
+	--primary: #910885;  /* lilla */
+	--primary-light: #CF0CBE; /* lys- lilla */
+	--secondary: #FA9702; /* oransje */
+  --secondary-light: #FDD394; /* lys-oransje */
+  --secondary-medium: #FAD59D; /* info-card-oransje */
+  --tertiary: #0F90F2;   /*blå*/
+  --tertiary-light: #CCE7FB; /*lys-blå*/
+	--card-background: #ffffff; /* hvit */
+	--body-background: #FDEDD6; /* lys sand */
+	--body-font-colour: #000000; /* svart */
+	--body-font-family: "geologica"; /* geologica */
+  --science-club-color: #8E5E3A;
+  --science-club-color-light: #AF6A01;
+  --newsletter-color: #393939;
+	--shadow: rgb(174, 173, 173); /* shadow */
+}
+
 .index-orange-infocard {
   background: #FAD59D;
   max-width: 80vw;
