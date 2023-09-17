@@ -192,6 +192,7 @@ header {
     max-width: 80vw;
     justify-content: center;
     padding-top: 1rem;
+    margin: 0 auto;
 }
 
 body {
@@ -243,6 +244,12 @@ footer a {
 
     nav a {
         padding-right: 1rem;
+    }
+
+    .hexagon-img,
+    .hexagon-img-index
+     {
+        max-height: 70vh;
     }
 
     footer {
