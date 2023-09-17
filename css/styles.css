@@ -89,8 +89,8 @@ a:hover {
 }
 
 .button-blue {
-    color: var(--tertiary);
-    background: #fff;
+    color: #fff;
+    background: var(--tertiary);
     border: none;
 }
 
