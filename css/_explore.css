@@ -1,12 +1,12 @@
 .join-newsletter-section {
     color: #fff;
-    background: #393939;
+    background: var(--newsletter-color);
     padding: 1rem;
 }
 
 .join-science-club-section {
     color: #fff;
-    background: #8E5E3A;
+    background:  var(--science-club-color);
     padding: 1rem;
 }
 

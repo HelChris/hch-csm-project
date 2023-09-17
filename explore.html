@@ -60,17 +60,15 @@
 			</nav>
 		</header>
 		<main>
-			<picture class="hexagon-figure">
-				<source
-					media="(min-width: 56.25em)"
-					srcset="/images/img-explore-deskt.jpg"
-				/>
+			<figure class="hexagon-figure">
 				<img
 					class="hexagon-img"
-					src="images/img-explore-mob.jpg"
+					src="images/img-explore-mob.jpg 640w"
+					srcset="/images/img-explore-deskt.jpg 1280w"
+					sizes="(max-width: 500px) 640px, 90vw"
 					alt="A child in a museum hall looking at people walking by"
 				/>
-			</picture>
+			</figure>
 			<section>
 				<h1>Explore more</h1>
 				<div class="copy">
@@ -95,7 +93,7 @@
 						Each holiday we pick a new theme to explore.
 					</p>
 				</div>
-				<div class="join-science-club-section">
+				<section class="join-science-club-section">
 					<h2>Join our Science Club!</h2>
 					<picture>
 						<img
@@ -107,7 +105,7 @@
 					<div class="sign-up">
 						<button class="buttons button-brown">Join the club</button>
 					</div>
-				</div>
+				</section>
 			</section>
 			<section>
 				<h2>Teachers</h2>
@@ -127,7 +125,7 @@
 						a visit.
 					</p>
 				</div>
-				<div class="join-newsletter-section">
+				<section class="join-newsletter-section">
 					<h2>Don't miss a thing!<br />Sign up for our newsletter.</h2>
 					<picture>
 						<img
@@ -139,7 +137,7 @@
 					<div class="sign-up">
 						<button class="buttons button-blackish">Send me newsletters</button>
 					</div>
-				</div>
+				</section>
 			</section>
 			<section>
 				<h2>Researchers</h2>

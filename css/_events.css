@@ -15,8 +15,8 @@
 
 .event-date {
     color: #fff;
-    background: #910885;
-    border: 3px solid #CF0CBE;
+    background: var(--primary);
+    border: 3px solid var(--primary-light);
     border-radius: 1rem 0px 1rem 0px;
     padding: 1rem;
     max-height: 10px;

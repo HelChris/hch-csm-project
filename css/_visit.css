@@ -64,11 +64,11 @@ ul {
 .facilities-card-wrapper {
     background: #fff;
     min-width: 80%;
-    border: 3px solid #FA9702;
+    border: 3px solid var(--secondary);
     border-radius: 8px 0px 8px 0px;
     background-color: #fff;
     margin: 1em;
-    box-shadow: 0px 4px 8px rgb(174, 173, 173);
+    box-shadow: 0px 4px 8px var(--shadow);
 }
 
 .facility-card-icon {

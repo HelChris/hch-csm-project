@@ -5,6 +5,26 @@
 @import "_involved.css";
 @import "_explore.css";
 
+:root {
+    --primary: #910885;  /* lilla */
+	--primary-light: #CF0CBE; /* lys- lilla */
+	--secondary: #FA9702; /* oransje */
+    --secondary-light: #FAD59D; /* lys-oransje */
+    --secondary-medium: #FCC167;
+    --tertiary: #0F90F2;   /*blå*/
+    --tertiary-light: #CCE7FB; /*lys-blå*/
+	--card-background: #ffffff; /* hvit */
+	--body-background: #FDEDD6; /* lys sand */
+    --nav-footer-background: #FDDCA9;
+	--body-font-colour: #000000; /* svart */
+    --footer-font-color: #480543;
+	--body-font-family: "geologica"; /* geologica */
+    --science-club-color: #8E5E3A;
+    --science-club-color-light: #AF6A01;
+    --newsletter-color: #393939;
+	--shadow: rgb(174, 173, 173); /* shadow */
+}
+
 h1,
 h2 {
     text-transform: uppercase;
@@ -49,30 +69,31 @@ a:hover {
 }
 
 .button-orange {
-    color: #000;
-    background-color: #FA9702;
-    border: 3px solid #FCC167;
+    color: var(--body-font-colour);
+    background-color: var(--secondary);
+    border: 3px solid var(--secondary-medium);
 }
 
 .button-blackish {
-    color: #393939;
+    color: var(--newsletter-color);
     background: #fff;
-    box-shadow: 0px 4px 8px rgb(174, 173, 173);
+    border: none;
     font-weight: 600;
-    width: 164px;
+    width: 200px;
 }
 
 .button-brown {
-    color: #8E5E3A;
+    color:  var(--science-club-color);
     background: #fff;
-    box-shadow: 0px 4px 8px rgb(174, 173, 173);
+    border: none;
     font-weight: 600;
-    width: 164px;
+    width: 200px;
 }
 
 .button-blue {
     color: #fff;
-    background: #0F90F2;
+    background: var(--tertiary);
+    border: none;
 }
 
 .button-back-up-links {
@@ -83,15 +104,14 @@ a:hover {
 
 .back-to-top {
     text-decoration: none;
-    color: #000;
+    color: var(--body-font-colour);
     align-content: center;
     padding: 1rem;
 }
 
-
 /* ----Navigation----  */
 nav {
-    background: #FDDCA9;
+    background: var(--nav-footer-background);
     position: absolute;
     justify-content: left;
     top: 4rem;
@@ -101,7 +121,7 @@ nav {
 nav,
 #menu-checkbox {
     display: none;
-    color: #910885;
+    color: var(--primary);
 }
 
 #menu-checkbox:checked~nav {
@@ -110,7 +130,7 @@ nav,
 
 nav a {
     text-transform: uppercase;
-    color: #910885;
+    color: var(--primary);
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
@@ -123,19 +143,19 @@ nav a:hover,
 footer a:hover {
     text-decoration: underline;
     text-shadow: 0 0 1px;
-    color: #910885;
+    color: var(--primary);
 }
 
 .active {
     text-decoration: underline;
     text-shadow: 0 0 1px;
-    color: #910885;
+    color: var(--primary);
 }
 
 header {
     position: relative;
-    background: #FDDCA9;
-    color: #910885;
+    background: var(--nav-footer-background);
+    color: var(--primary);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -153,10 +173,10 @@ header {
 }
 
 .hexagon-img {
-    max-width: 95vw;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    border: orange solid 3px;
+    border: var(--secondary) solid 3px;
     border-radius: 10px;
 }
 
@@ -169,15 +189,16 @@ header {
 
 .hexagon-figure {
     display: flex;
+    max-width: 80vw;
     justify-content: center;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 body {
     margin: 0 auto;
-    font-family: geologica;
+    font-family: var(--body-font-family);
     text-align: center;
-    background-color: #FDEDD6;
+    background-color: var(--body-background);
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: auto 1fr auto;
@@ -185,8 +206,8 @@ body {
 }
 
 footer {
-    background-color: #FDDCA9;
-    color: #480543;
+    background-color: var(--nav-footer-background);
+    color: var(--footer-font-color);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -197,7 +218,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #480543;
+    color: var(--footer-font-color);
     padding-top: 0.98rem;
     padding-bottom: 0.98rem;
 }
@@ -230,7 +251,7 @@ footer a {
         align-items: flex-start;
         flex-wrap: wrap;
         justify-content: space-around;
-        background: #FDDCA9;
+        background: var(--nav-footer-background);
         padding: 0.5rem;
     }
 }

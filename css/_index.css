@@ -1,23 +1,5 @@
-:root {
-	--primary: #910885;  /* lilla */
-	--primary-light: #CF0CBE; /* lys- lilla */
-	--secondary: #FA9702; /* oransje */
-  --secondary-light: #FDD394; /* lys-oransje */
-  --secondary-medium: #FAD59D; /* info-card-oransje */
-  --tertiary: #0F90F2;   /*blå*/
-  --tertiary-light: #CCE7FB; /*lys-blå*/
-	--card-background: #ffffff; /* hvit */
-	--body-background: #FDEDD6; /* lys sand */
-	--body-font-colour: #000000; /* svart */
-	--body-font-family: "geologica"; /* geologica */
-  --science-club-color: #8E5E3A;
-  --science-club-color-light: #AF6A01;
-  --newsletter-color: #393939;
-	--shadow: rgb(174, 173, 173); /* shadow */
-}
-
 .index-orange-infocard {
-  background: #FAD59D;
+  background: var(--secondary-light);
   max-width: 80vw;
   min-width: 300px;
   display: flex;
@@ -35,7 +17,7 @@
 }
 
 .orange-plan-visit-link {
-  background: #FA9702;
+  background: var(--secondary);
   color: #000;
   font-size: 1rem;
   text-decoration: none;
@@ -61,11 +43,11 @@
 
 .exhibition-card-wrapper {
   width: 280px;
-  border: 2px solid #FA9702;
+  border: 2px solid var(--secondary);
   border-radius: 8px 8px 0px 0px;
   background-color: #fff;
   margin: 1em;
-  box-shadow: 0px 4px 8px rgb(174, 173, 173);
+  box-shadow: 0px 4px 8px var(--shadow);
 }
 
 .exhibition-card-img {
@@ -173,7 +155,6 @@
   z-index: 3;
   opacity: 1;
 }
-
 
 /* ----------Media queries----------- */
 @media (min-width: 56.25em) {
