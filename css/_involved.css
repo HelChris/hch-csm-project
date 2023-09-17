@@ -15,6 +15,9 @@
 	max-width: 500px;
 	margin: 0 auto;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .get-involved-form fieldset {
@@ -36,6 +39,40 @@
     background-size: 100vw;
 }
 
+.form-input {
+    border: 1px solid var(--tertiary);
+}
+
+.label-name {
+    display: flex;
+}
+
+.involved-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .form-input-wrapper input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+
 @media (min-width: 1250px) {
     .involved-section {
         display: flex;
@@ -51,5 +88,18 @@
         justify-content: flex-start;
         padding: 2rem;
         margin: 0 auto;
+    }
+
+    .get-involved-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form-headline {
+        display: flex;
     }
 }

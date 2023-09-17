@@ -146,11 +146,12 @@
 				</section>
 			</div>
 			<div class="form-wrapper">
-				<form class="get-involved-form">
+				<div class="get-involved-form">
 					<fieldset>
 						<legend>Do you want to get involved?</legend>
 						<div>
 							<input
+								class="radio-button"
 								type="radio"
 								id="radioSupport"
 								name="get-involved"
@@ -160,6 +161,7 @@
 						</div>
 						<div>
 							<input
+								class="radio-button"
 								type="radio"
 								id="radioVolunteer"
 								name="get-involved"
@@ -169,6 +171,7 @@
 						</div>
 						<div>
 							<input
+								class="radio-button"
 								type="radio"
 								id="radioInternship"
 								name="get-involved"
@@ -179,8 +182,51 @@
 							>
 						</div>
 					</fieldset>
-					<button class="buttons button-blue">Get involved</button>
-				</form>
+					<form action="" method="get" class="involved-form">
+						<div class="form-input-wrapper">
+							<div>
+								<label class="label-name" for="name">Your name: </label>
+								<input
+									class="form-input"
+									type="text"
+									name="name"
+									placeholder="Your name here"
+									id="name"
+									required
+								/>
+							</div>
+							<div>
+								<label class="label-name" for="tel">Number: </label>
+								<input
+									class="form-input"
+									type="tel"
+									name="phone"
+									placeholder="Telephone number"
+									id="phone"
+									required
+								/>
+							</div>
+							<div>
+								<label class="label-name" for="email">Email: </label>
+								<input
+									class="form-input"
+									type="email"
+									name="email"
+									placeholder="Email address"
+									id="email"
+									required
+								/>
+							</div>
+							<div>
+								<input
+									class="buttons button-blue"
+									type="submit"
+									value="Get Involved!"
+								/>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 			<div class="button-back-up-links">
 				<a href="#" class="back-to-top"
