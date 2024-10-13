@@ -6,7 +6,7 @@ An interactive science museum called the Community Science Museum is opening in 
 
 You have been provided media assets as text and images. It is for you to decide how these will be used in terms of presentation, hierarchy, and design.
 
-Project Description Based on the first-semester curriculum, the semester project should reflect the student’s creative and technical knowledge and skills. This includes design principles, project management, communication technology, and development with HTML/CSS.
+Project Description Based on the first-semester curriculum, the semester project should reflect the student’s creative and technical knowledge and skills. This includes design principles, project management, communication technology, and development with HTML/CSS. (https://hch-csm.netlify.app/)
 
 ## Screenshots
 
