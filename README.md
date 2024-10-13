@@ -1,3 +1,4 @@
+![](/images/screenshot-csm-hexagon.png)
 # Semester Project 1: Community Science Museum
 
 ## Brief:
@@ -9,7 +10,7 @@ Project Description Based on the first-semester curriculum, the semester project
 
 ## Screenshots
 
-![Screenshot](/images/Screenshot-gamehub.png)
+![Screenshot](/images/Screenshot-CSM.png)
 
 ## 🛠 Languages and tools:
 
